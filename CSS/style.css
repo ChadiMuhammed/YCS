@@ -1,0 +1,50 @@
+  @font-face{
+    font-family: Lato;
+    src: url('/Fonts/lato-black-webfont.woff2') format('woff2');
+    src: url('/Fonts/lato-black-webfont.woff') format('woff');
+  }
+  @font-face{
+    font-family: Lato;
+    src: url('/Fonts/lato-bold-webfont.woff2') format('woff2');
+    src: url('/Fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: 700;
+  }
+
+  @font-face{
+    font-family: Lato;
+    src: url('/Fonts/lato-regular-webfont.woff2') format('woff2');
+    src: url('/Fonts/lato-regular-webfont.woff') format('woff');
+  }
+
+
+  body{
+    height: 5000px;
+    padding-top: 45px;
+    font-family: sans-serif;
+  }
+  /* Use webfont when it loads */
+  .fonts-loaded body {
+    font-family: Lato,  sans-serif;
+    ;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; /* Dark background */
+    color: white;
+    z-index: 100;
+
+  }
+  #nav-bar img {
+    height: 40px; /* Set the desired height for your logo */
+    margin-right: 10px; /* Add spacing between logo and navigation links */
+}
+  .navbar a{
+    text-decoration: none;
+    color: black;
+  }
+  .navbar a:hover{
+    color: yellow;
+  }
